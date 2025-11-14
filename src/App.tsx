@@ -52,35 +52,44 @@ function App() {
       title: 'React Developer',
       company: 'Star Global',
       location: 'Ho Chi Minh City, Vietnam',
-      period: '04/2021 - 05/2022',
+      period: '04/2021 - 07/2022',
       description: [
-        'Developed and maintained React-based web applications',
-        'Implemented responsive UI components using React Hooks and Redux',
-        'Collaborated with cross-functional teams to deliver features',
-        'Optimized application performance and reduced load time',
+        'Create new MVP shopping feature for mobile application, build new CMS to manage the data of application.',
+        'Working remotely with client\'s teammates in Agile team',
+        'Tech stack: React Native, ReactJS, React Hooks, Redux Toolkit, React Sortable,...',
       ],
       techStack: 'React Native, ReactJS, React Hooks, Redux Toolkit',
     },
     {
       title: 'Frontend Developer',
       company: 'CXA Group',
-      location: 'Bangkok, Thailand',
-      period: '06/2020 - 03/2021',
+      location: 'Ho Chi Minh City, Vietnam',
+      period: '10/2019 - 04/2021',
       description: [
-        'Built mobile applications using React Native',
-        'Integrated Firebase for backend services',
-        'Worked with design team to implement pixel-perfect UIs',
+        'Startup for building healthcare insurance platform that provide benefits to clients and their employees',
+        'Contribute to developing healthcare insurance mobile application',
       ],
       techStack: 'React Native, React, Firebase',
     },
     {
       title: 'Frontend Developer',
-      company: 'Aleph-Labs',
+      company: 'Saigon Technology',
       location: 'Ho Chi Minh City, Vietnam',
-      period: '01/2019 - 05/2020',
+      period: '05/2019 - 10/2019',
       description: [
-        'Developed web applications using React',
-        'Created reusable component libraries',
+        'Develop internal social web application that users can post news, upload images, catch up company status',
+      ],
+      techStack: 'React, Redux, Redux Saga',
+    },
+    {
+      title: 'Frontend Developer',
+      company: 'Aleph-Labs',
+      location: 'Bangkok, Thailand',
+      period: '08/2018 - 05/2019',
+      description: [
+        'Develop SPA web application and cross-platform mobile application for insurance company in Thailand',
+        'Working onsite, communicate to client in person for getting requirements',
+        'Support the release of web and mobile applications into production environments'
       ],
       techStack: 'React, React Native',
     },
@@ -121,7 +130,7 @@ function App() {
   return (
     <div className="cv-container">
       {/* Background Pattern */}
-      <div className="cv-background-pattern"></div>
+      {/* <div className="cv-background-pattern"></div> */}
 
       {/* Header Section */}
       <header className="cv-header">

@@ -172,6 +172,16 @@
   page-break-inside: avoid;
 }
 
+@media print {
+  .experience-item {
+    &:last-child {
+      break-inside: avoid; /* prevents splitting awkwardly */
+      page-break-before: always;
+      padding-top: 1.5rem; /* custom spacing */
+    }
+  }
+}
+
 .experience-header {
   margin-bottom: 0.5rem;
 }
