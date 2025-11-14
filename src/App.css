@@ -174,11 +174,8 @@
 
 @media print {
   .experience-item {
-    &:last-child {
-      break-inside: avoid; /* prevents splitting awkwardly */
-      page-break-before: always;
-      padding-top: 1.5rem; /* custom spacing */
-    }
+    break-inside: avoid; 
+    page-break-before: avoid;
   }
 }
 
@@ -443,7 +440,7 @@
   /* Section spacing */
   .cv-section {
     page-break-inside: avoid;
-    page-break-after: auto;
+    /* page-break-after: auto; */
     margin-bottom: 1.5rem !important;
   }
 
