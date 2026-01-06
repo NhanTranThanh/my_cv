@@ -43,9 +43,8 @@ function App() {
       location: "Ho Chi Minh City, Vietnam",
       period: "08/2022 - 04/2025",
       description: [
-        "Product: Support Tooling for supporters to help clients using messaging platform for managing accounts, users and executing tasks of numbers, senders, campaigns",
+        "Product: Support Tooling for supporters to help clients using messaging platform to manage their accounts, users and executing tasks of numbers, senders, campaigns",
         "Detaching Support MFE to separate the codebase from the shell application",
-        "Customize the BuildKite pipeline to deploy the application to AWS S3 and CloudFront",
         "Implenment feature branch deployment to help QA team to test the application before merging to staging branch",
       ],
       techStack: "React, Redux Toolkit, AWS S3, CloudFront, BuildKite,..",
@@ -56,10 +55,9 @@ function App() {
       location: "Ho Chi Minh City, Vietnam",
       period: "04/2021 - 07/2022",
       description: [
-        "Product: Shopping features of for hydrid mobile application refer to Buy First Pay Later model",
+        "Product: Shopping features of for hydrid-mobile application",
         "Build new CMS to manage the display and management of products and categories",
-        "Take responsibility for the products and cart feature, including the UI/UX design, implementation, and testing.",
-        "Working remotely with Japanese and Ukrainian client's teammates using Agile methodology",
+        "Take responsibility for the products and cart feature",
         "Tech stack: React Native, ReactJS, React Hooks, Redux Toolkit, React Sortable,...",
       ],
       techStack: "React Native, ReactJS, React Hooks, Redux Toolkit",
@@ -217,13 +215,14 @@ function App() {
         </div>
       </header>
 
-      <div className="cv-content">
+      <div className="cv-overview">
         <section className="cv-section">
           <h3 className="section-title">OVERVIEW</h3>
           <p>
             I am a frontend developer with a passion for building user-friendly
-            and efficient web and mobile applications. I have experience with React, React Native.
-            I am always looking for new challenges and opportunities to grow. Especially, I am interested in becoming a full-stack developer and using AI to improve my development process.
+            and efficient web and mobile applications. I am looking for new challenges and
+            opportunities to grow. Especially, I am interested in becoming a
+            full-stack developer and using AI to improve my development process.
           </p>
         </section>
       </div>

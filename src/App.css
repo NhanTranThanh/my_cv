@@ -491,6 +491,16 @@
     gap: 1.5rem !important;
   }
 
+  .cv-overview {
+    break-inside: avoid;
+    page-break-inside: avoid; 
+    page-break-before: avoid;
+    page-break-after: avoid;
+  }
+  
+  .experience-item:first-child {
+    page-break-after: always;
+  }
   @page {
     size: A4;
     margin: 0;
@@ -507,6 +517,11 @@
 
 /* Responsive adjustments - Only apply on screen, not print */
 @media screen and (max-width: 900px) {
+  .cv-overview {
+    break-inside: avoid;
+    page-break-inside: avoid; 
+  }
+
   .cv-content {
     grid-template-columns: 1fr;
   }
