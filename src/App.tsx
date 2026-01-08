@@ -39,7 +39,7 @@ function App() {
   const experiences: Experience[] = [
     {
       title: "Frontend Developer",
-      company: "Sinch MessageMedia",
+      company: "Sinch MessageMedia - CBTW",
       location: "Ho Chi Minh City, Vietnam",
       period: "08/2022 - 04/2025",
       description: [
